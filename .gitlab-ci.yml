@@ -1,0 +1,11 @@
+stages:
+  - testing
+
+
+
+testing:
+  stage: testing
+  tags:
+    - springboot
+  script:
+    - cat test.txt
